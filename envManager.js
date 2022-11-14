@@ -10,7 +10,7 @@ const rl = readline.createInterface({input: process.stdin, output: process.stdou
 let parseResult;
 
 const config = {
-  envFolder: '/Users/saguirrel/dev/sh/env', // Set the path to the folder where the .env and .env.dist files are located
+  envFolder: '/path/to/folder/with/dotenv', // Set the path to the folder where the .env and .env.dist files are located
   showBanner: true,
   // Set the environments you want to use for the switch environment option.
   // The key is the name of the environment and the value is an object with the variables and values you want to change
